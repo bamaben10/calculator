@@ -32,7 +32,7 @@ function calculator() {
     });
 
     deleteButton.addEventListener("click", () => {
-      // "Choose a higher number bitch"
+      // "Choose a higher number"
       let temp;
       if (currentOperand === "You Can't divide by 0") {
         currentOperand = 0;
